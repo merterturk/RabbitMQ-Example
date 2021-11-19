@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQWeb.WaterMark", "RabbitMQWeb.WaterMark\RabbitMQWeb.WaterMark.csproj", "{63FB42D4-321E-4919-89C8-EAEC4F41F658}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQWeb.ExcelCreate", "RabbitMQWeb.ExcelCreate\RabbitMQWeb.ExcelCreate.csproj", "{18E0F9C4-AA7A-4C0D-B5FC-F5AD35F09D9E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{993C6B33-F5BC-46DA-9777-69DB4F183387}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileCreateWorkerService", "FileCreateWorkerService\FileCreateWorkerService.csproj", "{38D593D9-0F59-41AA-ADCE-C1CB5A5DDB1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQWeb.WordToPdf", "RabbitMQWeb.WordToPdf\RabbitMQWeb.WordToPdf.csproj", "{0F3BAAA5-02E2-405D-A463-E032BE137C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQConsole.WordToPdf", "RabbitMQConsole.WordToPdf\RabbitMQConsole.WordToPdf.csproj", "{7068BB07-94F0-43D0-BBBB-56026216C46D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63FB42D4-321E-4919-89C8-EAEC4F41F658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FB42D4-321E-4919-89C8-EAEC4F41F658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FB42D4-321E-4919-89C8-EAEC4F41F658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FB42D4-321E-4919-89C8-EAEC4F41F658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E0F9C4-AA7A-4C0D-B5FC-F5AD35F09D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E0F9C4-AA7A-4C0D-B5FC-F5AD35F09D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E0F9C4-AA7A-4C0D-B5FC-F5AD35F09D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E0F9C4-AA7A-4C0D-B5FC-F5AD35F09D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{993C6B33-F5BC-46DA-9777-69DB4F183387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993C6B33-F5BC-46DA-9777-69DB4F183387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993C6B33-F5BC-46DA-9777-69DB4F183387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993C6B33-F5BC-46DA-9777-69DB4F183387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D593D9-0F59-41AA-ADCE-C1CB5A5DDB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D593D9-0F59-41AA-ADCE-C1CB5A5DDB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D593D9-0F59-41AA-ADCE-C1CB5A5DDB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D593D9-0F59-41AA-ADCE-C1CB5A5DDB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3BAAA5-02E2-405D-A463-E032BE137C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3BAAA5-02E2-405D-A463-E032BE137C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3BAAA5-02E2-405D-A463-E032BE137C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3BAAA5-02E2-405D-A463-E032BE137C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7068BB07-94F0-43D0-BBBB-56026216C46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7068BB07-94F0-43D0-BBBB-56026216C46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7068BB07-94F0-43D0-BBBB-56026216C46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7068BB07-94F0-43D0-BBBB-56026216C46D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73CE4498-8654-4FA6-B2BB-927E804DC041}
+	EndGlobalSection
+EndGlobal
